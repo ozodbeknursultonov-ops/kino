@@ -51,9 +51,9 @@ if not RENDER_EXTERNAL_HOSTNAME:
 WEBHOOK_URL = f"https://{RENDER_EXTERNAL_HOSTNAME}{WEBHOOK_PATH}"
 
 # ======================== Bot sozlamalari ========================
-BOT_USERNAME = "Kino_uzmove_bot"  # @ belgisisiz
-CHANNEL_USERNAME = "@kino_Uzmove"  # Kanal username
-CHANNEL_URL = "https://t.me/kino_Uzmove"  # Kanal URL
+BOT_USERNAME = "Kinomarioo_bot"  # @ belgisisiz
+CHANNEL_USERNAME = "@kinomario_kino"  # Kanal username
+CHANNEL_URL = "https://t.me/kinomario_kino"  # Kanal URL
 
 # ======================== Reklama ========================
 async def send_ad(bot, chat_id):
@@ -792,8 +792,8 @@ async def handle_code(update: Update, context: CallbackContext):
             await update.message.reply_text("❌ Video yuborishda xatolik yuz berdi.")
             return
         links_msg = (
-            f"📱 Instagram: https://www.instagram.com/kino_Uzmove\n"
-            f"📣 Kino kanal: @kino_Uzmove {CHANNEL_USERNAME}"
+            f"📱 Instagram: https://www.instagram.com/kinomar1o\n"
+            f"📣 Kino kanal: @kinomario_kino {CHANNEL_USERNAME}"
         )
         await update.message.reply_text(links_msg)
         await send_ad(context.bot, user_id)
